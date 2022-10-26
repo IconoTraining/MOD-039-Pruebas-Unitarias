@@ -8,15 +8,15 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class DNITest {
 	
-//	@Test
-//	void test() {
-//		DNI myClass = new DNI();
-//		char result1 = myClass.calcularLetra(12345678);
-//		char result2 = myClass.calcularLetra(11111121);
-//		
-//		assertEquals('Z',result1);
-//		assertEquals('M',result2);
-//	}
+	@Test
+	void test() {
+		DNI myClass = new DNI();
+		char result1 = myClass.calcularLetra(12345678);
+		char result2 = myClass.calcularLetra(11111121);
+		
+		assertEquals('Z',result1);
+		assertEquals('M',result2);
+	}
 
 	@ParameterizedTest
 	@CsvSource({

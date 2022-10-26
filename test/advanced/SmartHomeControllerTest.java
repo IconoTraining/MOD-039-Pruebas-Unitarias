@@ -46,7 +46,7 @@ class SmartHomeControllerTest {
 //	}
 	
 //	@Test
-//	void SiDetectaMovimiento_Y_EsMorning_Entonces_SeDeberíaApagarLaBombilla() {
+//	void SiDeteagctaMovimiento_Y_EsMorning_Entonces_SeDeberíaAparLaBombilla() {
 //		// Setup
 //		boolean motionDetected = true;
 //		LocalDateTime time = LocalDateTime.now().withHour(10);
